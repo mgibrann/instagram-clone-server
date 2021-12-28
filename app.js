@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
   );
 });
 
-app.use("/user", userRoutes);
+app.use("/", userRoutes);
 app.use("/posts", postsRoutes);
 
 mongoose
